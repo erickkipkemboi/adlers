@@ -1,47 +1,64 @@
 import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card";
 import Image from "next/image";
+import Link from "next/link";
 
 const Contentone = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center gap-8 bg-white py-12 px-6 lg:px-20">
-  
+    <section className="flex flex-col lg:flex-row items-center gap-12 bg-[#F8FAFC] py-16 px-6 lg:px-20">
+
+      {/* Image Side */}
       <div className="flex-1">
         <Image
-        src="/images/5.jpg"
-        alt="Team Discussion"
-        className="rounded-lg shadow-md w-full object-cover"
-        width={800}
-        height={500}
-      />
+          src="/images/5.jpg"
+          alt="Students Learning Languages"
+          width={800}
+          height={500}
+          className="rounded-2xl shadow-xl w-full object-cover"
+        />
       </div>
 
-       <div className="flex-1  pt-1">
-        <Card className="shadow-lg">
+      {/* Text Card Side */}
+      <div className="flex-1">
+        <Card className="shadow-2xl border border-[#C9A227]/20 rounded-2xl">
+
           <CardHeader>
-            <h2 className="text-2xl text-center font-bold text-gray-800">Who We Are</h2>
+            <h2 className="text-3xl font-bold text-[#0B3C5D] text-center tracking-wide">
+              Who We Are
+            </h2>
+
+            <div className="w-20 h-[3px] bg-[#C9A227] mx-auto mt-3 rounded-full" />
           </CardHeader>
-          <CardContent>
-            <p className="text-base text-gray-700 mb-4">
-              At EUROBRIDGE LANGUAGE INTITUTE, we are dedicated to helping you achieve fluency in German
-              and French, as well as success in the IELTS exam.
+
+          <CardContent className="space-y-4 text-gray-700 text-base leading-relaxed">
+            <p>
+              At <span className="font-semibold text-[#0B3C5D]">LÖWE & ADLER</span>, 
+              we are committed to helping students achieve fluency in 
+              <span className="font-medium text-[#0B3C5D]"> German</span> and 
+              <span className="font-medium text-[#0B3C5D]"> French</span>, 
+              as well as outstanding performance in the 
+              <span className="font-medium text-[#0B3C5D]"> IELTS examination</span>.
             </p>
-            <p className="text-base text-gray-700 ">
-              Whether you are pursuing professional opportunities, planning to
-              study abroad, or simply passionate about language learning,
-              you have come to the right place.
+
+            <p>
+              Whether you are preparing for international study, career advancement, 
+              or personal growth, our structured programs and expert instructors 
+              ensure you gain confidence, competence, and global opportunities.
             </p>
           </CardContent>
-          <CardFooter className="pt-4">
-            <a
+
+          <CardFooter className="pt-6 justify-center">
+            <Link
               href="/register"
-              className=" items-center bg-yellow-500 text-white font-medium py-2 px-4 rounded-lg hover:bg-yellow-600 transition duration-200"
+              className="bg-[#C9A227] hover:bg-[#B38B1D] text-[#0B3C5D] font-semibold py-3 px-6 rounded-xl shadow-md transition-all duration-300 hover:shadow-lg tracking-wide"
             >
               REGISTER NOW →
-            </a>
+            </Link>
           </CardFooter>
+
         </Card>
       </div>
-    </div>
+
+    </section>
   );
 };
 

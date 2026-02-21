@@ -11,7 +11,7 @@ export default function TopContactBar() {
         <div className="flex items-center gap-2">
           <Mail size={16} />
           <a href="mailto:info@myschool.com" className="hover:underline">
-            info@eurobridge.ac.ke
+            info@adler.ac.ke
           </a>
         </div>
 
@@ -19,7 +19,7 @@ export default function TopContactBar() {
         <div className="flex items-center gap-2">
           <Phone size={16} />
           <a href="tel:+254722108799" className="hover:underline">
-            +2547-2210-8799
+            +2547-9304-2033
           </a>
         </div>
 

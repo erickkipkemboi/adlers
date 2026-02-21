@@ -1,10 +1,9 @@
-// next.config.ts
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   experimental: {
-
-  }
+    optimizePackageImports: false,
+    disableDefaultFont: true,        // ⬅️ THIS DISABLES GEIST
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
