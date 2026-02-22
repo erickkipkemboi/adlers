@@ -7,9 +7,8 @@ const ApplicationProcedure = () => {
   const router = useRouter();
 
   const handleApplyClick = () => {
-    router.push("https://forms.google.com/your-google-form-link"); 
-    // Replace with your actual Google Form link
-  };
+    router.push("https://forms.gle/tT1NQJVadX9q9wyv8"); 
+    };
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">
@@ -29,7 +28,7 @@ const ApplicationProcedure = () => {
       </h2>
 
       <ul className="list-decimal pl-6 mb-6 space-y-2">
-        <li>Click the "Apply Now" button below.</li>
+        <li>Click the <strong> Apply Now</strong> button below.</li>
         <li>Fill out the official Google application form with your details.</li>
         <li>Select your preferred German level (A1, A2, B1, or B2).</li>
         <li>Submit the form and wait for confirmation and further guidance.</li>
