@@ -10,7 +10,7 @@ const Contentone = () => {
       <div className="flex-1">
         <Image
           src="/images/5.jpg"
-          alt="Students Learning Languages"
+          alt="Students Learning German"
           width={800}
           height={500}
           className="rounded-2xl shadow-xl w-full object-cover"
@@ -32,17 +32,20 @@ const Contentone = () => {
           <CardContent className="space-y-4 text-gray-700 text-base leading-relaxed">
             <p>
               At <span className="font-semibold text-[#0B3C5D]">LÖWE & ADLER</span>, 
-              we are committed to helping students achieve fluency in 
-              <span className="font-medium text-[#0B3C5D]"> German</span> and 
-              <span className="font-medium text-[#0B3C5D]"> French</span>, 
-              as well as outstanding performance in the 
-              <span className="font-medium text-[#0B3C5D]"> IELTS examination</span>.
+              we specialize in professional German language training from 
+              <span className="font-medium text-[#0B3C5D]"> A1 to B2 levels</span>.
             </p>
 
             <p>
-              Whether you are preparing for international study, career advancement, 
-              or personal growth, our structured programs and expert instructors 
-              ensure you gain confidence, competence, and global opportunities.
+              Our mission is to prepare students for opportunities in Germany 
+              including <span className="font-medium text-[#0B3C5D]">Ausbildung programs</span>, 
+              university studies, and skilled employment pathways.
+            </p>
+
+            <p>
+              Through structured lessons, exam preparation, and personalized guidance, 
+              we equip you with the language confidence required to succeed 
+              academically and professionally in Germany.
             </p>
           </CardContent>
 

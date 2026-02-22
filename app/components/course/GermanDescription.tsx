@@ -3,35 +3,80 @@ import React from 'react';
 function GermanDescription() {
   return (
     <div className="max-w-7xl mx-auto p-4">
+
       {/* Section Header */}
-      <div className="text-2xl ms-11 mb-4 font-semibold text-indigo-500">
-        <h3>French Course Description</h3>
+      <div className="text-2xl text-center mb-8 font-semibold text-[#0B3C5D]">
+        <h3>German Course Levels</h3>
       </div>
 
-      {/* Two-Column Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {/* Four-Card Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         
-        {/* A1/A2 Level */}
-        <div className="bg-gray-100 p-6 md:p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-          <div className="text-left">
-            <h3 className="text-lg md:text-xl font-medium mb-4">Beginner German (A1/A2)</h3>
-            <ul className="list-disc text-sm pl-5 space-y-1">
-              <li>Introduction to basic German vocabulary, grammar, and pronunciation.</li>
-              <li>Practice in everyday conversations, greetings, and simple interactions.</li>
-              <li>Preparation for Goethe-Zertifikat A1/A2 exams.</li>
-            </ul>
+        {/* A1 */}
+        <div className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+          <h3 className="text-lg font-semibold mb-3 text-[#0B3C5D]">A1 – Beginner Level</h3>
+          <ul className="list-disc text-sm pl-5 space-y-2 text-gray-700">
+            <li>Introduction to basic German vocabulary and grammar.</li>
+            <li>Pronunciation and everyday expressions.</li>
+            <li>Simple conversations: greetings, self-introduction, daily life.</li>
+            <li>Listening and speaking practice sessions.</li>
+          </ul>
+          <div className="mt-4 text-sm font-medium text-[#C9A227]">
+            Duration: 1.5 Months (Online)
+          </div>
+          <div className="text-base font-bold text-[#0B3C5D]">
+            KES 15,000
           </div>
         </div>
 
-        {/* B1/B2 Level */}
-        <div className="bg-gray-100 p-6 md:p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-          <div className="text-left">
-            <h3 className="text-lg md:text-xl font-medium mb-4">Intermediate German (B1/B2)</h3>
-            <ul className="list-disc text-sm pl-5 space-y-1">
-              <li>Expansion of vocabulary and grammar to discuss more complex topics.</li>
-              <li>Development of reading, writing, listening, and speaking skills through various activities.</li>
-              <li>Preparation for Goethe-Zertifikat B1/B2 exams.</li>
-            </ul>
+        {/* A2 */}
+        <div className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+          <h3 className="text-lg font-semibold mb-3 text-[#0B3C5D]">A2 – Elementary Level</h3>
+          <ul className="list-disc text-sm pl-5 space-y-2 text-gray-700">
+            <li>Expansion of vocabulary for daily communication.</li>
+            <li>Understanding short texts and conversations.</li>
+            <li>Writing simple letters and messages.</li>
+            <li>Structured grammar development.</li>
+          </ul>
+          <div className="mt-4 text-sm font-medium text-[#C9A227]">
+            Duration: 1.5 Months (Online)
+          </div>
+          <div className="text-base font-bold text-[#0B3C5D]">
+            KES 15,000
+          </div>
+        </div>
+
+        {/* B1 */}
+        <div className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+          <h3 className="text-lg font-semibold mb-3 text-[#0B3C5D]">B1 – Intermediate Level</h3>
+          <ul className="list-disc text-sm pl-5 space-y-2 text-gray-700">
+            <li>Advanced grammar structures and sentence formation.</li>
+            <li>Discussing work, education, and social topics.</li>
+            <li>Essay writing and formal communication.</li>
+            <li>Preparation for B1 certification exams.</li>
+          </ul>
+          <div className="mt-4 text-sm font-medium text-[#C9A227]">
+            Duration: 2 Months (Online)
+          </div>
+          <div className="text-base font-bold text-[#0B3C5D]">
+            KES 20,000
+          </div>
+        </div>
+
+        {/* B2 */}
+        <div className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+          <h3 className="text-lg font-semibold mb-3 text-[#0B3C5D]">B2 – Upper Intermediate Level</h3>
+          <ul className="list-disc text-sm pl-5 space-y-2 text-gray-700">
+            <li>Fluent communication in professional and academic settings.</li>
+            <li>Complex text analysis and advanced vocabulary.</li>
+            <li>Presentation and debate practice sessions.</li>
+            <li>Preparation for university and professional pathways in Germany.</li>
+          </ul>
+          <div className="mt-4 text-sm font-medium text-[#C9A227]">
+            Duration: 2 Months (Online)
+          </div>
+          <div className="text-base font-bold text-[#0B3C5D]">
+            KES 20,000
           </div>
         </div>
 

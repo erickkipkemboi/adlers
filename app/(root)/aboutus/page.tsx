@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Content3 from '@/app/components/Content3';
-import About from '@/app/components/elements/Aboutus';
+import Aboutus from '@/app/components/elements/Aboutus';
 
 function page() {
   return (
@@ -33,8 +33,10 @@ function page() {
             </h2>
             <p className="text-black">
             
-             At EuroBridge Language Institute, we believe that language is the gateway to endless possibilities. It opens doors to academic, professional, and personal growth by enabling individuals to connect across borders, embrace new cultures, 
-            and confidently navigate today interconnected world.</p>
+            At LÖWE & ADLER, we believe that mastering the German language is the key to unlocking 
+            life-changing opportunities in Germany. German is more than a language — it is your pathway
+            to higher education, 
+            Ausbildung programs, skilled employment, and long-term professional growth..</p>
             <p>
                 Our mission is to empower learners with the linguistic skills and cultural competence needed to thrive in an increasingly globalized society. Whether you are learning for travel, work, study, or immigration, we are here to guide you every step of the way.
             </p>
@@ -42,7 +44,7 @@ function page() {
         </div>
       </div>
 
-      <About />
+      <Aboutus />
     </>
   );
 }

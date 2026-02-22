@@ -21,31 +21,31 @@ export function CarouselPlugin() {
   const slides = [
     {
       src: "/images/1.jpg",
-      title: "Master English",
-      flag: "/flags/UK.jpg",
+      title: "Learn German for Ausbildung",
+      flag: "/flags/Germany.jpg",
       description:
-        "Study, work, and travel across the globe with fluent English. Access top universities and high-paying careers worldwide.",
+        "Start your journey to Germany through Ausbildung programs. Learn German to B1/B2 level and secure paid vocational training opportunities.",
     },
     {
       src: "/images/2.jpg",
-      title: "Learn German",
+      title: "German for Study in Germany",
       flag: "/flags/Germany.jpg",
       description:
-        "Join Ausbildung, FSJ, and FSD programs in Germany. Earn while you learn in one of Europe’s strongest economies.",
+        "Qualify for public universities in Germany with strong German language skills. Study tuition-free while accessing world-class education.",
     },
     {
       src: "/images/3.jpg",
-      title: "Speak French",
-      flag: "/flags/France.jpg",
+      title: "German for Work Opportunities",
+      flag: "/flags/Germany.jpg",
       description:
-        "Study in France, Canada, Belgium, and Switzerland while mastering the language of diplomacy and culture.",
+        "Unlock high-demand job opportunities in Germany. Master professional German and increase your chances of securing skilled employment.",
     },
     {
       src: "/images/4.jpg",
-      title: "Explore Spanish",
-      flag: "/flags/Spain.jpg",
+      title: "Online German Classes (A1–B2)",
+      flag: "/flags/Germany.jpg",
       description:
-        "Connect with over 500 million Spanish speakers worldwide and unlock exchange opportunities globally.",
+        "Join flexible online German classes from beginner to advanced level. Interactive lessons, exam preparation, and personalized support for your success.",
     },
   ]
 
@@ -75,7 +75,7 @@ export function CarouselPlugin() {
                 <div className="flex items-center space-x-4">
                   <Image
                     src={slide.flag}
-                    alt={`${slide.title} flag`}
+                    alt="German flag"
                     width={55}
                     height={40}
                     className="rounded-sm shadow-lg"
